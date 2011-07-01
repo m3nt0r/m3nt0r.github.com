@@ -16,7 +16,7 @@ layout: nil
 
  {% for post in site.posts %}
  <entry>
-   <title>{{ post.title }}</title>
+   <title>{{ post.title }} @m3nt0r</title>
    <link href="http://m3nt0r.github.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://m3nt0r.github.com{{ post.id }}</id>
