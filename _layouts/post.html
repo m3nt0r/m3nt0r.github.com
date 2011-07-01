@@ -1,16 +1,9 @@
 ---
 layout: default
 ---
-<article lang="en" id="post" class="article"> 
-	<header class="article-header"> 
-		<h2><a href="{{ url }}" rel="bookmark">{{ title }}</a></h2> 
-		<time>{{ date | date_to_string }}</time>
-	</header> 
-	<div class="article-body">
-		{{ content }}
-	</div>
+<article id="post" lang="en"> 
+	{{ content }}
 </article>
-
 
 <div id="related">
 	<h3>Related Posts</h3>

@@ -4,6 +4,8 @@ title: Hello GitHub Pages!
 date: 2011-07-01
 ---
 
+## Hello GitHub Pages!
+
 This is just a test :)
 
 Lorem ipsum dolor sit amet, consectetur **adipisicing** elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud *exercitation* ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
@@ -39,11 +41,11 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ### links
 
-a non-markdown link: http://github.com/blog
-this one is [a markdown link](http://github.com/blog)
+a non-markdown link: http://github.com/blog 
+this one is [a markdown link](http://github.com/blog) 
 Email test: support@github.com
 
 ### github md?
 
-c4149e7bac80fcd1295060125670e78d3f15bf2e
+c4149e7bac80fcd1295060125670e78d3f15bf2e 
 issue #1
