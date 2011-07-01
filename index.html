@@ -1,1 +1,12 @@
-weeee. github page
+---
+layout: default
+title: @m3nt0r
+---
+
+<div id="posts">
+	<ol>
+    {% for post in site.posts %}
+	<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ol>
+</div>
