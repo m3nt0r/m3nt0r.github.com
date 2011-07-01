@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Hello GitHub Pages!
 date: 2011-07-01
 ---
