@@ -29,6 +29,59 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
     var spaces = 4;
     this.shouldBe = some(code);
     
+### highlighted codeblock
+
+Some Ruby...
+
+{% highlight ruby %}
+def File.binread(fname)
+	open(fname, 'rb') {|f|
+		return f.read
+	}
+end
+
+class ConfigTable
+	include Enumerable
+	
+	def initialize(rbconfig)
+		@rbconfig = rbconfig
+		@no_harm = false
+
+{% endhighlight %}
+
+Some CoffeeScript
+
+{% highlight coffeescript %}
+# Bind all of an object's methods to that object. Useful for ensuring that
+# all callbacks defined on an object belong to it.
+_.bindAll = (obj) ->
+  funcs = if arguments.length > 1 then _.rest(arguments) else _.functions(obj)
+  _.each funcs, (f) -> obj[f] = _.bind obj[f], obj
+  obj
+
+
+# Zip together multiple lists into a single array -- elements that share
+# an index go together.
+_.zip = ->
+  length =  _.max _.pluck arguments, 'length'
+  results = new Array length
+  for i in [0...length]
+    results[i] = _.pluck arguments, String i
+  results
+
+
+# If the browser doesn't supply us with **indexOf** (I'm looking at you, MSIE),
+# we need this function. Return the position of the first occurrence of an
+# item in an array, or -1 if the item is not included in the array.
+_.indexOf = (array, item) ->
+  return array.indexOf item if nativeIndexOf and array.indexOf is nativeIndexOf
+  i = 0; l = array.length
+  while l - i
+    if array[i] is item then return i else i++
+  -1
+{% endhighlight %}
+
+
 ### inline code
 
 This should be ```inline``` code

@@ -14,7 +14,7 @@ body {
 
 pre,
 code {
-  font-family: 'DejaVu Sans Mono', Monaco, Consolas, monospace;
+  font-family: Monaco, 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', Consolas, monospace;
 }
 
 hr {
