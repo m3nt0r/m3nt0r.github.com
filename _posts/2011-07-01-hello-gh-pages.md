@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello GitHub Pages! - 
+title: Hello GitHub Pages!
 date: 2011-07-01
 ---
 
@@ -29,9 +29,11 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
     var spaces = 4;
     this.shouldBe = some(code);
     
-### highlighted codeblock
+#### highlighted
 
-Some Ruby...
+Same as above, but this time using ```highlight```.
+
+##### Some Ruby...
 
 {% highlight ruby %}
 def File.binread(fname)
@@ -49,7 +51,7 @@ class ConfigTable
 
 {% endhighlight %}
 
-Some CoffeeScript
+##### Some CoffeeScript
 
 {% highlight coffeescript %}
 # Bind all of an object's methods to that object. Useful for ensuring that

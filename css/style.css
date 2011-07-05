@@ -14,13 +14,39 @@ html, body {
 a,h1,h2,h3,h4,h5 {
   color: #3D7198;
 }
-
 h1,h2,h3,h4,h5 {
+  text-transform: capitalize;
   text-shadow: 0 1px 0 #316E91;
 }
 
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  color: #56A1C0;
+}
+
+h4 {
+  font-size: 1.3em;
+  color: #69B5CF;
+  text-shadow: 0 1px 0 #9AD2EB;
+}
+
+h5 {
+  font-size: 1.1em;
+  color: #888;
+  text-shadow: 0 -1px 0 #ddd;
+}
+
+
 a:hover {
   text-decoration: none;
+}
+
+em {
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", sans;
 }
 
 #header {
@@ -87,7 +113,7 @@ a:hover {
 
 #post p code {
   padding: 0 .3em;
-  background: #C9C49B;
+  background: #eee8d5;
   font-size: .9em;
   color: #000;
 }
@@ -97,6 +123,7 @@ a:hover {
   margin: 0;
   padding: 0;
   line-height: 1;
+  clear: both;
 }
 
 #posts .post-date {
@@ -105,6 +132,12 @@ a:hover {
   font-weight: bold;
   letter-spacing: -0.1em;
   color: #aaa;
+  display: block;
+  float: left;
+  width: 6em;
+  margin-top: .2em;
+  text-align: right;
+  margin-right: 0.5em;
 }
 
 #posts .post-icon {
@@ -130,10 +163,8 @@ a:hover {
 }
 
 pre {
-  background-color: #FDF6E3;
-  border-bottom: 0.5em solid #eee8d5;
-  border-top: 0.5em solid #eee8d5;
-  color: #839496;
+  background-color: #262626;
+  color: #A4B9BC;
   display: block;
   font-size: 0.9em;
   line-height: 1.5;
@@ -149,17 +180,12 @@ blockquote {
   color: #000;
 }
 
-em {
-  font-style: italic;
-  font-family: Georgia, "Times New Roman", sans;
-}
-
 .highlight .k {
   color: #859900;
   font-weight: bold;
 }
 
-.highlight .kp {
+.highlight .kp, .highlight .o {
   color: #cb4b16;
   font-weight: bold;
 }
@@ -175,7 +201,7 @@ em {
 }
 
 .highlight .nx {
-  color: #d33682;
+  color: #93a1a1;
 }
 
 .highlight .nb {
@@ -188,15 +214,15 @@ em {
 }
 
 .highlight .nv { 
-  color: #586e75;
+  color: #eee8d5;
 }
 
-.highlight .o, .highlight .p {
+.highlight .p, .highlight .nt {
   color: #93a1a1;
 }
 
 .highlight .c1, .highlight .c2 {
-  color: #93a1a1;
+  color: #586e75;
 }
 
 .highlight .s1, .highlight .s2 {
